@@ -1,0 +1,30 @@
+.employee-view-popup {
+    max-width:800px;
+}
+
+.react-datepicker-popper {
+    z-index: 9999 !important;
+}
+.ellipsis {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+form[name=add-edit-employee] .custom-file-label.ellipsis {
+    font-weight: var(--fontweight400);
+}
+label.date-label {
+    display: inline;
+    margin-bottom:0;
+}
+
+label.date-new-label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+label.date-label div.calendar-input{
+    margin-top: 0.5rem; 
+}
